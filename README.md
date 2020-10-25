@@ -6,6 +6,9 @@ The Jewelery Store recognizes that the present clients are progressively refined
 
 
 The Jewelery Store has been giving our clients extraordinary items supported by unrivaled administration. With its rich convention of value and minding, The Jewelery anticipates a lot more many years of administration to clients who have a profound regard for quality, a hunger for information and a craving for a confiding in association with an extremely customized firm. It is our longing that our site will proceed with that convention.
+
+
+
 Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 •	Html
