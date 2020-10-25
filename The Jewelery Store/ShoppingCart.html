@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shopping Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/shoppingcart.css">
+</head>
+
+<body>
+
+    <nav class="w3-bar w3-black">
+        <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+          <a href="Home.html" class="w3-bar-item w3-button">Home</a>
+          <a href="AboutUs.html" class="w3-bar-item w3-button">About Us</a>
+          <a href="Products/EarRings.html" class="w3-bar-item w3-button">Ear Rings</a>
+          <a href="Products/BodyRings.html" class="w3-bar-item w3-button">Body Rings</a>
+          <a href="Products/Anklets.html" class="w3-bar-item w3-button">Anklets</a>
+          <a href="Products/Necklaces.html" class="w3-bar-item w3-button">Necklaces</a>
+          <a href="Home.html#footer" class="w3-bar-item w3-button w3-padding">Contact</a>         
+        </div>
+      </nav>
+
+  <div id="w">
+    <header id="title">
+      <h1>Shopping Cart</h1>
+    </header>
+    <div id="page">
+      <table id="cart">
+        <thead>
+          <tr>
+            <th class="first">Photo</th>
+            <th class="second">Qty</th>
+            <th class="third">Product</th>
+            <th class="fourth">Line Total</th>
+            <th class="fifth">Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- shopping cart contents -->
+          <tr class="productitm">
+            <td><img src="images/Carat Hoop Earrings.jpeg" class="thumb" style="width:10%"></td>
+            <td><input name="a" type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>0.54 Carat Hoop Earrings in white Gold</td>
+            <td>$300.00</td>
+            <td><span class="remove"><img src="images/trash.png" alt="r"></span></td>
+        
+          <tr class="productitm">
+            <td><img src="images/butterfly.jpg" class="thumb" style="width:10%"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>Petite Blue Butterfly Stud Earrings</td>
+            <td>$76.00</td>
+            <td><span class="remove"><img src="images/trash.png" alt="r"></span></td>
+          </tr>
+         
+          <tr class="productitm">
+            <td><img src="images/bodyrings/20 Pcs set Body Ring.jpg" class="thumb" style="width:10%"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>20 Piece Set Body Rings</td>
+            <td>$105.50</td>
+            <td><span class="remove"><img src="images/trash.png" alt="r"></span></td>
+          </tr>
+         
+          <tr class="productitm">
+            <td><img src="images/Anklets/gem Anklets.jpg" class="thumb" style="width:10%"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>Gem Anklets</td>
+            <td>$68.00</td>
+            <td><span class="remove"><img src="images/trash.png" alt="r"></span></td>
+          </tr>
+          
+          <tr class="productitm">
+            <td><img src="images/Necklace/Blue Topaz Necklace.jpg" class="thumb" style="width:10%"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>Blue Topaz Necklace</td>
+            <td>$225.00</td>
+            <td><span class="remove"><img src="images/trash.png" alt="r"></span></td>
+          </tr>
+          
+          <!-- tax + subtotal -->
+          <tr class="extracosts">
+            <td class="light">Shipping &amp; Tax</td>
+            <td colspan="2" class="light"></td>
+            <td>$35.00</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr class="totalprice">
+            <td class="light">Total:</td>
+            <td colspan="2">&nbsp;</td>
+            <td colspan="2"><span class="thick">$809.50</span></td>
+          </tr>
+          
+          <!-- checkout btn -->
+          <tr class="checkoutrow">
+            <td colspan ="5" class="checkout"><a href="checkout.html">
+              <button id="submitbtn">Checkout Now!</button>
+          </a>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
